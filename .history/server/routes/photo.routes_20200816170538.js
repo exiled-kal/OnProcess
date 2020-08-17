@@ -1,0 +1,1 @@
+const PhotoClt = require('../co')
