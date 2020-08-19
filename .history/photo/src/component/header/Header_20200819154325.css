@@ -1,0 +1,9 @@
+.headerContainer {
+  display: flex;
+}
+
+.headerContainer>img {
+  height: 400px;
+  border-radius: 10px;
+  padding: 12px;
+}

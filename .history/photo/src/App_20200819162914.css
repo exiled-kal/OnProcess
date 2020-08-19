@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+}
+
+
+.header__app {
+  width: %;
+  height: 50px;
+}
+
+.links {
+  padding: 10px;
+  border-radius: 15px;
+}
