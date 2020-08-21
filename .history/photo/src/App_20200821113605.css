@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  background-color: rgb(red, green, blue)
+}
+
+.header__app {
+  width: 100%;
+  height: 100px;
+}
+
+.links {
+  padding: 10px;
+  border-radius: 15px;
+  font-size: larger;
+  color: blue;
+}
+
+.icon {
+  height: 40px !important;
+  width: 40px !important;
+  padding-top: 7px;
+}

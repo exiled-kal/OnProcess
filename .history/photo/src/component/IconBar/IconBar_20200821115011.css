@@ -1,0 +1,24 @@
+* {
+    /* background-color: rgb(red, green, blue); */
+    padding-top: 20px;
+}
+
+
+.instagram__link {
+    height: 2em !important;
+    width: 5em !important;
+    /* background-color: rgb(168, 166, 166); */
+    transition: all 0.5s ease-in-out;
+    &:hover {
+      background: var(--lightBlue);
+      color: var(--mainBlue);
+    }
+    &:focus {
+      outline: none;
+    }
+    border-radius: 2rem;
+}
+
+.quotes {
+    font-size: bold;
+}

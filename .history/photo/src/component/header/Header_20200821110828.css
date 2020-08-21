@@ -1,0 +1,9 @@
+.headerContainer {
+  display: flex;
+
+}
+
+.header__photo {
+  width: 8%;
+  height: 500px;
+}

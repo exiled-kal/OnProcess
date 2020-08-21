@@ -1,0 +1,12 @@
+* {
+    background-color: whitesmoke;
+}
+
+.link__container {
+    background-color: rgb(1, 166, 166);
+}
+.instagram__link {
+    height: 5em !important;
+    width: 5em !important;
+    background-color: rgb(168, 166, 166);
+}

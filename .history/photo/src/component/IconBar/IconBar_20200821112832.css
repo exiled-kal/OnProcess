@@ -1,0 +1,12 @@
+* {
+    background-color: rgb(87, 168, 114);
+    margin: ;
+}
+
+
+.instagram__link {
+    height: 5em !important;
+    width: 5em !important;
+    background-color: rgb(168, 166, 166);
+    border-radius: 2rem;
+}
