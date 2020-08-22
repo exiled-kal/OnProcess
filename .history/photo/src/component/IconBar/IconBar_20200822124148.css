@@ -1,10 +1,5 @@
-.link__container {
-    margin-left: 10px;
-    margin-top: 4px;
-}
 
-
-.instagram__link:hover {
+..instagram__link:hover {
     height: 6em !important;
     width: 10em !important;
     justify-items: center;

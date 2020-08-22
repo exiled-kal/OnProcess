@@ -16,14 +16,15 @@ function MyInfo() {
           <h2 style={{color: 'blue'}}>Full Stack Web Developer</h2>
         </p>
         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
-
-        <h3>
-          <p className="about__container">
-            Hello Everyone ! My name is Tsering Kalden. I am a Tibetan based in
-            Bay Area, California. I have been leaving here in Bay Area for 4
-            years now. Recently, I have graduated as a Full-Stack Web-Developer.
-          </p>
-        </h3>
+        <p>
+          <h3>
+            <p>
+              Hello Everyone ! My name is Tsering Kalden. I am a Tibetan based in
+              Bay Area, California. I have been leaving here in Bay Area for 4
+              years now. Recently, I have graduated as a Full-Stack Web-Developer.
+            </p>
+          </h3>
+        </p>
       </div>
     </div>
   );

@@ -16,8 +16,8 @@ function IconBar() {
           <div className="quotes__row">
             <CopyrightIcon className="copy__right" />
             <span style={{color: 'black'}}>
-              All the pict<span style={{color: 'black'}}>ures</span> are taken
-              by me.
+              All the pict<span style={{color: 'black'}}>ures</span> are taken by
+              me.
             </span>
             <p style={{color: 'black'}}>
               Click on the logo to check my Instagram page

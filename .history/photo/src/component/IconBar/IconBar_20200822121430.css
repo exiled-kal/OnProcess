@@ -1,0 +1,24 @@
+* {
+    /* background-color: rgb(red, green, blue); */
+    padding-top: 20px;
+}
+
+
+.instagram__link {
+    height: 4em !important;
+    width: 10em !important;
+    justify-items: center;
+    /* background-color: rgb(168, 166, 166); */
+    transition: all 0.5s ease-in-out;
+    border-radius: 2rem;
+}
+
+.like__follow {
+    margin-left: 50px;
+}
+
+.quotes {
+    font-size: bold;
+}
+
+.quotes__

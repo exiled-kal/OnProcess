@@ -13,16 +13,13 @@ function IconBar() {
         </a>
         <h3 className="like__follow">Like & Follow</h3>
         <div className="quotes__container">
-          <div className="quotes__row">
-            <CopyrightIcon className="copy__right" />
-            <span style={{color: 'black'}}>
-              All the pict<span style={{color: 'black'}}>ures</span> are taken
-              by me.
-            </span>
-            <p style={{color: 'black'}}>
-              Click on the logo to check my Instagram page
-            </p>
-          </div>
+          <CopyrightIcon className="copy__right" />
+          <span style={{color: 'black'}}>
+            All the pict<span style={{color: 'black'}}>ures</span> are taken by
+            me.
+          </span>
+          <p style={{color: 'black'}}>logo to check my Instagram page</p>
+          </p>
         </div>
       </div>
     </div>
