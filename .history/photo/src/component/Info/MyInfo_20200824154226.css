@@ -1,0 +1,21 @@
+.info__container {
+    width: 20%;
+    margin-left: 10px;
+}
+
+.photo__container {
+    height: 100px;
+    margin-top: 4px;
+}
+
+.avatar__me {
+    border-radius: 2rem;
+}
+
+.about__me {
+    margin: 20px;
+}
+
+.about__container {
+    margin-top: 4px;
+}
