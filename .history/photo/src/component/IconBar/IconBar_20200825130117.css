@@ -1,0 +1,38 @@
+.link__container {
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+.social__link {
+    background-color: whitesmoke;
+}
+
+instagram__link {
+    
+}
+
+.instagram__link:hover {
+    height: 6em !important;
+    width: 10em !important;
+    justify-items: center !important;
+    transition: all 0.5s ease-in-out !important;
+    border-radius: 2rem !important;
+    margin-left: 10px !important;
+    opacity: 0.5 !important;
+}
+
+.like__follow:hover {
+    margin-left: 60px;
+    margin-top: 40px;
+    font-size: larger;
+}
+
+.quotes__container {
+    font-size: bold;
+
+}
+
+.quotes__row {
+    display: flex;
+    justify-items: flex-start;
+}
