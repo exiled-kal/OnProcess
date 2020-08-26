@@ -1,0 +1,42 @@
+.info__container {
+    width: 20%;
+    margin-left: 10px;
+}
+
+.photo__container {
+    height: 100px;
+    margin-top: 4px;
+    display: flex;
+}
+
+.avatar__me {
+    border-radius: 2rem;
+    height: 200px;
+}
+
+.about__me {
+    margin: 20px;
+    font-size: larger;
+    display: flex;
+}
+
+.about__container {
+    margin-top: 4px;
+}
+
+.about__containerRight__photo {
+    width: ;
+    height: 999px;
+    display: flex;
+    justify-content: right;
+
+}
+
+.collapse {
+    text-decoration: none;
+    background-color: rgb(97, 241, 40);
+}
+
+.collapse:hover {
+    background-color: rgb(97, 235, 30);
+}

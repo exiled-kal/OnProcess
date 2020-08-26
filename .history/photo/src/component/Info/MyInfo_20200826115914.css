@@ -1,0 +1,44 @@
+.info__container {
+    width: 20%;
+    margin-left: 10px;
+}
+
+.photo__container {
+    height: 100px;
+    margin-top: 4px;
+    display: flex;
+}
+
+.avatar__me {
+    border-radius: 2rem;
+    height: 400px;
+}
+
+.about__me {
+    margin: 20px;
+    font-size: larger;
+    display: flex;
+}
+
+.about__container {
+    margin-top: 4px;
+    
+}
+
+.about__containerRight__photo {
+    width: 70rem;
+    height: 1090px;
+    display: flex;
+    justify-content: right;
+    border-radius: 2rem;
+    margin-left: 30px;
+}
+
+.collapse {
+    text-decoration: none;
+    background-color: rgb(97, 241, 40);
+}
+
+.collapse:hover {
+    background-color: rgb(97, 235, 30);
+}
