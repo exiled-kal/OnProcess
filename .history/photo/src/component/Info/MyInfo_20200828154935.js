@@ -46,7 +46,8 @@ function MyInfo() {
                 (134.1 °F) in Death Valley as of now Aug 16,2020, to one of the
                 highest mountain in North America, Mount Whitney which has an
                 elevation of 4421 m 14,505 ft falls in Sierra Nevada Mountain
-                Ranges. Its such a unique state.
+                Ranges.
+                Its such a unique state.
               </p>
             </p>
           </h3>

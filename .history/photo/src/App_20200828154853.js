@@ -17,9 +17,9 @@ function App() {
           My Photos
         </Link>{' '}
         |{' '}
-        <Link className="links" to="/myInfo">
+        {/* <Link className="links" to="/myInfo">
           My Info
-        </Link>
+        </Link> */}
         <hr />
         <Quotes />
         <Router>

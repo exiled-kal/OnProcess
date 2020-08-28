@@ -27,9 +27,7 @@ function Card({photo}) {
           <div
             className="img__wrap"
             key={photo._id}
-            // layout
-            // whileHover={{opacity: 1}}
-            // s
+           
           >
             <img src={photo.image} alt="" />
             <h2>

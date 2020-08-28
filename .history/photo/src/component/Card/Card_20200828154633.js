@@ -24,13 +24,7 @@ function Card({photo}) {
       <h2>Welcome to my Photography world</h2>
       <div className="img-grid">
         {photos.map((photo) => (
-          <div
-            className="img__wrap"
-            key={photo._id}
-            // layout
-            // whileHover={{opacity: 1}}
-            // s
-          >
+          <div className="img__wrap" key={photo._id}>
             <img src={photo.image} alt="" />
             <h2>
               <p className="img__location">
