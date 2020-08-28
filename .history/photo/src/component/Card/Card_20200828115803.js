@@ -26,12 +26,12 @@ function Card({photo}) {
         {photos.map((photo) => (
           <div
             className="img__wrap"
-            key={photo._id}
+            key={photo.id}
             // layout
             // whileHover={{opacity: 1}}
             // s
           >
-            <img src={photo.image} alt="" />
+            <img src={photo.image} alt="my photo" />
             <h2>
               <p className="img__location">
                 <LocationOnIcon />

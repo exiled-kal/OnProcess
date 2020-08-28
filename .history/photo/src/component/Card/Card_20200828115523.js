@@ -26,10 +26,10 @@ function Card({photo}) {
         {photos.map((photo) => (
           <div
             className="img__wrap"
-            key={photo._id}
-            // layout
-            // whileHover={{opacity: 1}}
-            // s
+            key={photo.id}
+            layout
+            whileHover={{opacity: 1}}
+            s
           >
             <img src={photo.image} alt="" />
             <h2>
@@ -41,7 +41,7 @@ function Card({photo}) {
             <p className="img__description">{photo.description}</p>
           </div>
         ))}
-        <div className="collapse__container">
+        <div class="collapse__container">
           <button
             className="collapse"
             type="button"

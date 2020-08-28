@@ -26,7 +26,7 @@ function Card({photo}) {
         {photos.map((photo) => (
           <div
             className="img__wrap"
-            key={photo._id}
+            key={photo.id}
             // layout
             // whileHover={{opacity: 1}}
             // s
