@@ -12,25 +12,20 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 40px;
   cursor: pointer;
+  opacity: 0.7;
+  transition: transform 50ms ease-out;
 }
 
 .img-grid img {
   width: 700px;
   height: 500px;
   border-radius: 1rem;
+  
 }
 
 .img-grid img:hover {
-}
-
-.img__wrap {
-  opacity: 0.7;
-  transition: transform 50ms ease-out;
-}
-
-.img__wrap:hover {
   opacity: 1;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .img__description {
@@ -39,7 +34,6 @@
 
 .img__location {
   font-size: 20px;
-  padding-top: 10px;
 }
 
 .collapse {

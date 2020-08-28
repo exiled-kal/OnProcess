@@ -1,19 +1,21 @@
 * {
   margin: 0px;
   margin: 5px 5px;
-  padding-right: 6px;
+  cursor: pointer;
 }
 
-/* Hide scrollbar for chrome, safari and opera */
 .app::-webkit-scrollbar {
-  display: none;
+  width: 0.7em;
+  background: white;
 }
 
-.app {
-  /* IE and Edge */
-  -ms-overflow-style: none;
-  /* Firefox */
-  scrollbar-width: none;
+.app::-webkit-scrollbar-thumb {
+  background: #c0392b;
+  height: 30px;
+}
+
+.app::-webkit-scrollbar-track-piece {
+  display: none;
 }
 
 .header__app {

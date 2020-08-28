@@ -18,17 +18,11 @@
   width: 700px;
   height: 500px;
   border-radius: 1rem;
-}
-
-.img-grid img:hover {
-}
-
-.img__wrap {
   opacity: 0.7;
   transition: transform 50ms ease-out;
 }
 
-.img__wrap:hover {
+.img-grid img:hover {
   opacity: 1;
   transform: scale(1.1);
 }
@@ -39,7 +33,7 @@
 
 .img__location {
   font-size: 20px;
-  padding-top: 10px;
+  padding-top: ;
 }
 
 .collapse {

@@ -1,21 +1,10 @@
 * {
   margin: 0px;
   margin: 5px 5px;
-  padding-right: 6px;
+  cursor: pointer;
 }
 
-/* Hide scrollbar for chrome, safari and opera */
-.app::-webkit-scrollbar {
-  display: none;
-}
-
-.app {
-  /* IE and Edge */
-  -ms-overflow-style: none;
-  /* Firefox */
-  scrollbar-width: none;
-}
-
+.img__header
 .header__app {
   width: 100%;
   height: 100px;

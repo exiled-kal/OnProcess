@@ -1,7 +1,7 @@
 * {
   margin: 0px;
   margin: 5px 5px;
-  padding-right: 6px;
+  cursor: pointer;
 }
 
 /* Hide scrollbar for chrome, safari and opera */
@@ -9,7 +9,7 @@
   display: none;
 }
 
-.app {
+.nav {
   /* IE and Edge */
   -ms-overflow-style: none;
   /* Firefox */

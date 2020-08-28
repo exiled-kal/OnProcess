@@ -25,10 +25,10 @@ function Card({photo}) {
       <div className="img-grid">
         {photos.map((photo) => (
           <div
-            className="img__wrap"
+            className="img--wrap"
             key={photo.id}
             layout
-            whileHover={{opacity: 1}}
+            
             s
           >
             <img src={photo.image} alt="" />

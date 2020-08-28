@@ -5,6 +5,18 @@
   font-size: large;
 }
 
+/* Hide scrollbar for chrome, safari and opera */
+.img__header::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .img__header {
+    /* IE and Edge */
+    -ms-overflow-style: none;
+    /* Firefox */
+    scrollbar-width: none;
+  }
+  
 .img-grid {
   margin: 20px auto;
   margin-bottom: 30px;

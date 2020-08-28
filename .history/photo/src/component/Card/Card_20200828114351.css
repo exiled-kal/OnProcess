@@ -21,6 +21,8 @@
 }
 
 .img-grid img:hover {
+  opacity: 1;
+  transform: scale(1.1);
 }
 
 .img__wrap {
@@ -28,10 +30,7 @@
   transition: transform 50ms ease-out;
 }
 
-.img__wrap:hover {
-  opacity: 1;
-  transform: scale(1.1);
-}
+
 
 .img__description {
   font-style: italic;

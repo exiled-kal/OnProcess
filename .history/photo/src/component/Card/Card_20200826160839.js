@@ -25,7 +25,7 @@ function Card({photo}) {
       <div className="img-grid">
         {photos.map((photo) => (
           <div
-            className="img__wrap"
+            className="img--wrap"
             key={photo.id}
             layout
             whileHover={{opacity: 1}}
@@ -41,15 +41,13 @@ function Card({photo}) {
             <p className="img__description">{photo.description}</p>
           </div>
         ))}
-        <div class="collapse__container">
-          <button
-            className="collapse"
-            type="button"
-            onClick={() => navigate('./home')}
-          >
-            Collapse
-          </button>
-        </div>
+        <button
+          className="collapse"
+          type="button"
+          onClick={() => navigate('./home')}
+        >
+          Collapse
+        </button>
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 * {
   margin: 0px;
   margin: 5px 5px;
-  padding-right: 6px;
+  
 }
 
 /* Hide scrollbar for chrome, safari and opera */
@@ -34,6 +34,7 @@
 .links:hover {
   color: lightgrey;
   background-color: black;
+  
 }
 
 .icon {

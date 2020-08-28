@@ -21,6 +21,8 @@
 }
 
 .img-grid img:hover {
+  opacity: 1;
+  transform: scale(1.1);
 }
 
 .img__wrap {
@@ -29,8 +31,7 @@
 }
 
 .img__wrap:hover {
-  opacity: 1;
-  transform: scale(1.1);
+    
 }
 
 .img__description {

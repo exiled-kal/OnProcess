@@ -1,0 +1,33 @@
+.quotes__container {
+    height: 100%;
+    width: 100%;
+    background: -webkit-linear-gradient(to right, #2dfd5a, #b21f1f, #1a2a6c);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2dfd5a, #b21f1f, #1a2a6c);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 10px;
+
+}
+
+.quotes__line {
+    padding: 15px;
+}
+
+.photo__quotes {
+    height: 100%;
+    font-size: x-large;
+    padding: 15px;
+    font-style: italic;
+    padding-top: 5px;
+}
+
+.quotes__writer {
+    color: rgb(5, 118, 155);
+    font-weight: bold;
+}
+
+.header__quotes {
+    font-size: xx-large;
+    font-style: italic;
+    color: blue;
+}
