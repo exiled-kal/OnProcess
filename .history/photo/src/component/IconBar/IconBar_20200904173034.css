@@ -30,6 +30,6 @@
 }
 
 .quotes__row {
-  padding: 20px;
+  display: flex;
   text-align: center;
 }

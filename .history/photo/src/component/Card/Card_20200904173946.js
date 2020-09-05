@@ -5,7 +5,7 @@ import {navigate} from '@reach/router';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import ThumbUpAltIcon from '@material-ui/icons/ThumbUpAlt';
 
-function Card({photo, likes}) {
+function Card({photo}) {
   const [photos, setPhotos] = useState([]);
   const [hasError, setHasError] = useState(false);
 
@@ -27,16 +27,16 @@ function Card({photo, likes}) {
         Photography plays a vital role in so many ways to different ways
         depending on how you want to see and describe it. For some people,
         photography is like meditation. For some people, photography is like
-        soul searching. For some people, photography is profession.
+        soul searching. For some people, photography is like profession.
       </h4>
       <div className="img-grid">
-        {photos.map((photo, id) => (
+        {photos.map((photo) => (
           <div
             className="img__wrap"
             key={photo._id}
-            layout
-            whileHover={{opacity: 1}}
-            s
+            // layout
+            // whileHover={{opacity: 1}}
+            // s
           >
             <img src={photo.image} alt="" />
             <h2>
@@ -47,9 +47,7 @@ function Card({photo, likes}) {
               </p>
             </h2>
             <p className="img__description">{photo.description}</p>
-            <div className="img__icon">
-              <ThumbUpAltIcon onClick={(likes) => likes + 1} />
-            </div>
+            div.
           </div>
         ))}
         <div className="collapse__container">

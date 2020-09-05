@@ -27,10 +27,10 @@ function Card({photo, likes}) {
         Photography plays a vital role in so many ways to different ways
         depending on how you want to see and describe it. For some people,
         photography is like meditation. For some people, photography is like
-        soul searching. For some people, photography is profession.
+        soul searching. For some people, photography is like profession.
       </h4>
       <div className="img-grid">
-        {photos.map((photo, id) => (
+        {photos.map((photo,id) => (
           <div
             className="img__wrap"
             key={photo._id}

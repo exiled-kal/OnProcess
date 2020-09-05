@@ -38,6 +38,6 @@
 }
 
 .collapse:hover {
-  background-color: lightgray;
-  color: rgb(97, 250, 40);
+  background-color: gray;
+  color: rgb(97, 241, 40);
 }

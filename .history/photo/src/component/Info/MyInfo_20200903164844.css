@@ -23,6 +23,8 @@
   display: flex;
 }
 
+
+
 .about__containerRight__photo {
   width: 65rem;
   height: 1076px;
@@ -38,6 +40,5 @@
 }
 
 .collapse:hover {
-  background-color: lightgray;
-  color: rgb(97, 250, 40);
+  
 }

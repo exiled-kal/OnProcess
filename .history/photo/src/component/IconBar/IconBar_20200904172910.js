@@ -17,11 +17,8 @@ function IconBar() {
             <CopyrightIcon className="copy__right" />
             <h4>
               <span style={{color: 'black'}}>
-                <p>
-                  {' '}
-                  2020 Tsering Kalden ! No rights reserved - this is a demo!
-                </p>
-                <p>Privacy · Terms · Sitemap · Company Details</p>
+              <p>© 2020 Tser ! No rights reserved - this is a demo!</p>
+      <p>Privacy · Terms · Sitemap · Company Details</p>
               </span>
               <p style={{color: 'black'}}>
                 Click on the logo to check my Instagram page!!!!
