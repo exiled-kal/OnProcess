@@ -1,0 +1,38 @@
+.imageCard {
+  width: 100%;
+  max-height: 100%;
+  padding: 10px;
+  object-fit: contain;
+}
+
+.imageCard__container {
+}
+
+.imageCard__photo {
+  align-items: center;
+  display: flex;
+}
+
+.imageCard__text {
+  margin-top: 10px;
+  background-color: lightgray;
+}
+
+.imageCard__description {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.collapse__container {
+  padding: 10px;
+}
+
+.collapse {
+  width: 68px;
+  height: 25px;
+  text-decoration: none;
+  background-color: rgb(97, 241, 40);
+}
+
+.collapse:hover {
+  color: rgb(97, 250, 30);
+}

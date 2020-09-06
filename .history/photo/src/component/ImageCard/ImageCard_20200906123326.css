@@ -1,0 +1,30 @@
+.imageCard {
+    widows: 400px;;
+}
+
+.imageCard__container {
+
+}
+
+.imageCard__photo {
+
+}
+
+.imageCard__text {
+
+}
+
+.collapse__container {
+
+}
+
+.collapse {
+  width: 68px;
+  height: 25px;
+  text-decoration: none;
+  background-color: rgb(97, 241, 40);
+}
+
+.collapse:hover {
+  color: rgb(97, 250, 30);
+}
