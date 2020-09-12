@@ -1,0 +1,10 @@
+.headerContainer {
+  display: flex;
+}
+
+.header__photo {
+  width: 100%;
+  height: 520px;
+  padding-left: 10px;
+  border-bottom-style: 10px;
+}
